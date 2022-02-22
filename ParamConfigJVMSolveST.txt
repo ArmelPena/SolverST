@@ -1,0 +1,3 @@
+set CURRENT_DIR=%cd%
+set CLASSPATH="%CURRENT_DIR%\lib\swing-layout.jar";"%CURRENT_DIR%\lib\dom.jar";"%CURRENT_DIR%\lib\sax.jar";"%CURRENT_DIR%\lib\jaxp-api.jar";"%CURRENT_DIR%\lib\xalan.jar";"%CURRENT_DIR%\lib\xercesImpl.jar";"%CURRENT_DIR%\lib\xmlsec-1.4.1.jar";"%CURRENT_DIR%\lib\xsltc.jar";"%CURRENT_DIR%\lib\commons-logging-1.1.1.jar"
+java    -classpath %CLASSPATH%;.  -Xms512M -Xmx512M com.fidufosyga.gui.Aplication 1.0 1.0
